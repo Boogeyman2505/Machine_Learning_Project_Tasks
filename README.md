@@ -12,20 +12,20 @@ Context: The bank has a growing customer base. The bank wants to increase borrow
 
 Attribute Information:
 
-● ID: Customer ID 
-● Age: Customer's age in completed years 
-● Experience: #years of professional experience 
-● Income: Annual income of the customer ($000) 
-● ZIP Code: Home Address ZIP code. 
-● Family: Family size of the customer 
-● CCAvg: Avg. spending on credit cards per month ($000) 
-● Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional 
-● Mortgage: Value of house mortgage if any. ($000) 
-● Personal Loan: Did this customer accept the personal loan offered in the last campaign? 
-● Securities Account: Does the customer have a securities account with the bank? 
-● CD Account: Does the customer have a certificate of deposit (CD) account with the bank? 
-● Online: Does the customer use internet banking facilities? 
-● Credit card: Does the customer use a credit card issued by the bank?
+- ID: Customer ID 
+- Age: Customer's age in completed years 
+- Experience: #years of professional experience 
+- Income: Annual income of the customer ($000) 
+- ZIP Code: Home Address ZIP code. 
+- Family: Family size of the customer 
+- CCAvg: Avg. spending on credit cards per month ($000) 
+- Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional 
+- Mortgage: Value of house mortgage if any. ($000) 
+- Personal Loan: Did this customer accept the personal loan offered in the last campaign? 
+- Securities Account: Does the customer have a securities account with the bank? 
+- CD Account: Does the customer have a certificate of deposit (CD) account with the bank? 
+- Online: Does the customer use internet banking facilities? 
+- Credit card: Does the customer use a credit card issued by the bank?
 
 Objective: The classification goal is to predict the likelihood of a liability customer buying personal loans.
 

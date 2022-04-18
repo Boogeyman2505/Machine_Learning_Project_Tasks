@@ -12,18 +12,38 @@ Context: The bank has a growing customer base. The bank wants to increase borrow
 
 Attribute Information:
 
-● ID: Customer ID ● Age: Customer's age in completed years ● Experience: #years of professional experience ● Income: Annual income of the customer ($000) ● ZIP Code: Home Address ZIP code. ● Family: Family size of the customer ● CCAvg: Avg. spending on credit cards per month ($000) ● Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional ● Mortgage: Value of house mortgage if any. ($000) ● Personal Loan: Did this customer accept the personal loan offered in the last campaign? ● Securities Account: Does the customer have a securities account with the bank? ● CD Account: Does the customer have a certificate of deposit (CD) account with the bank? ● Online: Does the customer use internet banking facilities? ● Credit card: Does the customer use a credit card issued by the bank?
+● ID: Customer ID 
+● Age: Customer's age in completed years 
+● Experience: #years of professional experience 
+● Income: Annual income of the customer ($000) 
+● ZIP Code: Home Address ZIP code. 
+● Family: Family size of the customer 
+● CCAvg: Avg. spending on credit cards per month ($000) 
+● Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional 
+● Mortgage: Value of house mortgage if any. ($000) 
+● Personal Loan: Did this customer accept the personal loan offered in the last campaign? 
+● Securities Account: Does the customer have a securities account with the bank? 
+● CD Account: Does the customer have a certificate of deposit (CD) account with the bank? 
+● Online: Does the customer use internet banking facilities? 
+● Credit card: Does the customer use a credit card issued by the bank?
 
 Objective: The classification goal is to predict the likelihood of a liability customer buying personal loans.
 
 Steps and tasks:
 
-Import the datasets and libraries, check datatype, statistical summary, shape, null values etc
-Check if you need to clean the data for any of the variables
-EDA: Study the data distribution in each attribute and target variable, share your findings. ● Number of unique in each column? ● Number of people with zero mortgage? ● Number of people with zero credit card spending per month? ● Value counts of all categorical columns. ● Univariate and Bivariate analysis
-Apply necessary transformations for the feature variables
-Normalise your data and split the data into training and test set in the ratio of 70:30 respectively
-Use the Logistic Regression model to predict the likelihood of a customer buying personal loans.
-Print all the metrics related for evaluating the model performance
-Build various other classification algorithms and compare their performance
-Give a business understanding of your model
+1. Import the datasets and libraries, check shape and datatype.
+2. Visualise the dataset using plotting using heatmaps and plots. You
+can study data distributions for each attribute as well.
+3. Clean the dataset by removing missing values and other things.
+4. Transform attributes into numerical values and other
+necessary transformations
+5. Normalise your data and split the data into training, validation and test
+set in the appropriate ratio.
+6. Use linear regression, Support Vector Regressor for training and get
+errors.
+7. Use Decision Tree Regressor and Random Forest Regressors.
+8. Build an artificial neural network and train it with different layers
+and hyperparameters. Experiment a little. Use keras.
+9. Pick the best model based on error as well as
+generalisation.
+10.Save your model and predict on the test set.

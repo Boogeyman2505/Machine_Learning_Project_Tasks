@@ -29,8 +29,7 @@ Attribute Information:
 
 Objective: The classification goal is to predict the likelihood of a liability customer buying personal loans.
 
-Steps and tasks:
-
+Steps and Tasks:
 1. Import the datasets and libraries, check shape and datatype.
 2. Visualise the dataset using plotting using heatmaps and plots. You
 can study data distributions for each attribute as well.
